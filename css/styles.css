@@ -217,3 +217,16 @@ a {
     width: 90%;
   }
 }
+.hero-image {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.hero-image img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #57f287;
+  box-shadow: 0 0 30px rgba(87, 242, 135, 0.5);
+}
