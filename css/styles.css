@@ -68,3 +68,19 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+.project-card{
+    background-color:#f4f6f8;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+    box-shadow:0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.project-card h3{
+    color:#1d3557;
+}
+
+.project-card ul{
+    margin-left:20px;
+}
