@@ -230,3 +230,24 @@ a {
   border: 5px solid #57f287;
   box-shadow: 0 0 30px rgba(87, 242, 135, 0.5);
 }
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.hero-image img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #72ff72;
+    box-shadow: 0 0 25px rgba(114,255,114,0.5);
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+}
