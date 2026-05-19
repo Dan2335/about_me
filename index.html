@@ -1,140 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>About Me - Jonah Daniel</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jonah Daniel | About Me</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>Jonah Daniel</h1>
-  <h2>Computer Science Student at Metro State University</h2>
 
+  <nav>
+    <div class="logo">Jonah Daniel</div>
+    <div>
+      <a href="#about">About</a>
+      <a href="#courses">Courses</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#links">Links</a>
+    </div>
+  </nav>
+
+  <section id="about" class="hero">
+    <p class="tag">COMPUTER SCIENCE • IT SUPPORT • CLOUD LEARNING</p>
+    <h1>Jonah Daniel</h1>
+    <h2>Computer Science Student at Metro State University</h2>
+
+    <div class="badges">
+      <span>Major: Computer Science</span>
+      <span>Status: ICS 499 Capstone</span>
+      <span>AWS Certification: Learning</span>
+    </div>
+
+    <p class="summary">
+      I am a final year Computer Science student at Metro State University with experience in IT support,
+      healthcare systems at abbott labratories, and technical troubleshooting. I am interested in development,
+      cybersecurity, networking, cloud technologies, and building practical technology projects.
+      I am currently working on my skills through projects, and learning AWS cloud.
+    </p>
+
+    <a class="button" href="https://github.com/Dan2335" target="_blank">View GitHub Profile</a>
   </section>
-  <section id="courses">
-  <h2>Profile Overview</h2>
-  <p>
-    I am at my final year at Computer Science student at Metro State University with experience in IT support,
-    healthcare systems, and technical problem solving. I am interested in software engineering,
-    networking, cybersecurity, and building practical technology projects. My goal is to continue
-    developing my programming and troubleshooting skills and use them in entry-level IT or software
-    development roles.
-  </p>
-
-    </section>
 
   <section id="courses">
-  <h2>Courses Taken</h2>
-  <table border="1">
-    <tr>
-      <th>Course</th>
-      <th>Course Title</th>
-    </tr>
-    <tr>
-      <td>ICS 340</td>
-      <td>Database Management Systems</td>
-    </tr>
-    <tr>
-      <td>ICS 365</td>
-      <td>Organization of programming Languages</td>
-    </tr>
-    <tr>
-      <td>ICS 460</td>
-      <td>Network and Security</td>
-    </tr>
-    <tr>
-      <td>ICS 352</td>
-      <td>Machine learing</td>
-    </tr>
-    <tr>
-      <td>ICS 141</td>
-      <td>Problem Solving with Programming</td>
-    </tr>
-    <tr>
-      <td>ICS 372</td>
-      <td>Object-Oriented Design and Implementation </td>
-    </tr>
-    <tr>
-      <td>ICS 499</td>
-      <td>Software Engineering Capstone</td>
-    </tr>
-  </table>
-
+    <p class="tag">ACADEMIC PREPARATION</p>
+    <h2>Courses Taken</h2>
+    <table>
+      <tr>
+        <th>Course</th>
+        <th>Course Title</th>
+        <th>Status</th>
+      </tr>
+      <tr><td>ICS 141</td><td>Problem Solving with Programming</td><td><span class="complete">Completed</span></td></tr>
+      <tr><td>ICS 352</td><td>Machine Learning</td><td><span class="complete">Completed</span></td></tr>
+      <tr><td>ICS 372</td><td>Object-Oriented Design and Implementation</td><td><span class="complete">Completed</span></td></tr>
+      <tr><td>ICS 340</td><td>Database Management Systems</td><td><span class="complete">Completed</span></td></tr>
+      <tr><td>ICS 365</td><td>Organization of Programming Languages</td><td><span class="complete">Completed</span></td></tr>
+      <tr><td>ICS 460</td><td>Network and Security</td><td><span class="complete">Completed</span></td></tr>
+      <tr><td>ICS 499</td><td>Software Engineering Capstone</td><td><span class="progress">In Progress</span></td></tr>
+    </table>
   </section>
+
   <section id="skills">
-  <h2>Technical Skills</h2>
+    <p class="tag">TECHNICAL RANGE</p>
+    <h2>Technical Skills</h2>
 
-  <h3>Programming Languages</h3>
-  <p>Python, Java, C, JavaScript, HTML, CSS</p>
+    <div class="skills-grid">
+      <div class="card">
+        <h3>Programming Languages</h3>
+        <span>Python</span><span>Java</span><span>C</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
+      </div>
 
-  <h3>Technologies / Frameworks</h3>
-  <p>React, Node.js, SQL, Git, Networking, TLS, AWS basics</p>
+      <div class="card">
+        <h3>Technologies</h3>
+        <span>React</span><span>Node.js</span><span>SQL</span><span>Networking</span><span>TLS</span><span>AWS Basics</span>
+      </div>
 
-  <h3>Tools</h3>
-  <p>GitHub, VS Code, Eclipse, VirtualBox, Wireshark, SAP</p>
+      <div class="card">
+        <h3>Tools</h3>
+        <span>GitHub</span><span>VS Code</span><span>Eclipse</span><span>VirtualBox</span><span>Wireshark</span><span>SAP</span>
+      </div>
 
-  <h3>AI Tools</h3>
-  <p>ChatGPT, Claude, GitHub Copilot</p>
-
+      <div class="card">
+        <h3>AI Tools</h3>
+        <span>ChatGPT</span><span>Claude</span><span>GitHub Copilot</span>
+      </div>
+    </div>
   </section>
-  <section id="projects">  
-  <h2>Projects</h2>
 
-<div class="project-card">
-    <h3>Brew Cafe Management System</h3>
+  <section id="projects">
+    <p class="tag">PROJECT EXPERIENCE</p>
+    <h2>Projects</h2>
 
-    <p>
-        Developed a Java-based coffee shop management application as part of a
-        team software engineering project. The system included customer ordering,
-        inventory tracking, menu management, and role-based functionality for
-        employees and managers.
-    </p>
+    <div class="project">
+      <h3>Brew Cafe Management System</h3>
+      <p>
+        A Java-based coffee shop management application created as a team software engineering project.
+        The system supported customer ordering, product management, inventory tracking, and employee/manager functionality.
+      </p>
+      <p><strong>Technologies:</strong> Java, JavaFX, OOP, MVC Design Pattern, GitHub Collaboration</p>
+    </div>
 
-    <p><strong>Technologies Used:</strong></p>
+    <div class="project">
+      <h3>Python System Health Monitor</h3>
+      <p>
+        A system monitoring project that checks internet connectivity, CPU usage, memory usage, disk space,
+        and system warnings. This project demonstrates troubleshooting and IT support skills.
+      </p>
+      <p><strong>Technologies:</strong> Python, System Monitoring, Networking, Troubleshooting</p>
+    </div>
 
-    <ul>
-        <li>Java</li>
-        <li>Object-Oriented Programming</li>
-        <li>GitHub Collaboration</li>
-        <li>MVC Design Pattern</li>
-        <li>JavaFX</li>
-    </ul>
-</div>
+    <div class="project">
+      <h3>Secure TCP TLS Server</h3>
+      <p>
+        A networking and security project that used TLS encryption and OpenSSL certificates to secure
+        communication between a client and server.
+      </p>
+      <p><strong>Technologies:</strong> Python, TLS/SSL, OpenSSL, Networking, Cybersecurity</p>
+    </div>
+  </section>
 
-<div class="project-card">
-    <h3>Python System Health Monitor</h3>
+  <section id="links">
+    <p class="tag">PROFESSIONAL PRESENCE</p>
+    <h2>Professional Links</h2>
+    <p>GitHub: <a href="https://github.com/Dan2335" target="_blank">github.com/Dan2335</a></p>
+    <p>LinkedIn: <a href="#" target="_blank">Add LinkedIn Profile Later</a></p>
+  </section>
 
-    <p>
-        Created a Python system monitoring project that checks internet
-        connectivity, CPU usage, memory utilization, disk space, and
-        system health warnings. Designed to demonstrate troubleshooting
-        and IT support skills for entry-level technology positions.
-    </p>
-
-    <p><strong>Technologies Used:</strong></p>
-
-    <ul>
-        <li>Python</li>
-        <li>System Monitoring</li>
-        <li>Networking</li>
-        <li>Troubleshooting</li>
-    </ul>
-</div>
-
-<div class="project-card">
-    <h3>Secure TCP TLS Server</h3>
-
-    <p>
-        Built a secure TCP server using TLS encryption and OpenSSL certificates.
-        The project focused on secure communication, networking concepts,
-        and basic cybersecurity implementation.
-    </p>
-
-    <p><strong>Technologies Used:</strong></p>
-
-    <ul>
-        <li>Python</li>
-        <li>TLS/SSL</li>
-        <li>OpenSSL</li>
-        <li>Cybersecurity</li>
-        <li>Networking</li>
-    </ul>
-</div>
+</body>
+</html>
